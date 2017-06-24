@@ -1,10 +1,15 @@
 # Color Game
 ---
+
 ## Summary
+
 This color game is created by HTML, CSS/Bootstrap and JavaScrip.
 This game helps user to get familiar with RGB color system.
+
 ---
+
 ## How to play
+
 **There're two levels can be selected**
 - *Easy* (three colors)
 - *Hard* (six colors)
