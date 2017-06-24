@@ -1,5 +1,4 @@
 # Color Game
----
 
 ## Summary
 
