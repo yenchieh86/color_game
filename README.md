@@ -29,4 +29,4 @@ This game helps user to get familiar with RGB color system.
 
 [APP](https://yenchieh86.github.io/color_game/colorGame.html)
 
-![Show-Img](https://yenchieh86.github.io/color_game/show_img.jpg)
+![Show-Img](https://raw.githubusercontent.com/yenchieh86/color_game/master/show_img.jpg)
