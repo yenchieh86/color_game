@@ -25,4 +25,8 @@ This game helps user to get familiar with RGB color system.
 
 **Wrong**
 - The color will disappear
-- Than choose another one
+- Than choose another one 
+
+[APP](https://yenchieh86.github.io/color_game/colorGame.html)
+
+![Show-Img](https://yenchieh86.github.io/color_game/show_img.jpg)
