@@ -5,8 +5,19 @@ var colorDisplay = document.querySelector('#colorDisplay');
 var squares = document.getElementsByClassName('square');
 var message = document.querySelector('#message');
 var h1 = document.getElementsByTagName('h1')[0];
+var resetButton = document.querySelector('#reset');
 
 colorDisplay.textContent = pickedColor;
+
+resetButton.addEventListener('click', function() {
+    colors = generateRandomColors(6);
+    pickedColor = pickColor();
+    colorDisplay.textContent = pickedColor;
+    h1.style.backgroundColor = '#232323';
+    for (var n = 0; n < squares.length; n++) {
+        squares[n].style.backgroundColor = colors[n];
+    }
+});
 
 for(var n = 0; n < squares.length; n++) {
     squares[n].style.backgroundColor = colors[n];
@@ -15,6 +26,7 @@ for(var n = 0; n < squares.length; n++) {
             message.textContent = 'Correct!!';
             changeColor(pickedColor);
             h1.style.backgroundColor = pickColor();
+            resetButton.textContent = 'Play Again?';
         } else {
             message.textContent = 'Try again';
             this.style.backgroundColor = '#232323';
