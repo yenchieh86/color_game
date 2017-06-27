@@ -3,6 +3,7 @@
 ## Summary
 
 This color game is created by HTML, CSS/Bootstrap and JavaScrip.
+
 This game helps user to get familiar with RGB color system.
 
 ---
